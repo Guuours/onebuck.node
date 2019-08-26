@@ -1,0 +1,20 @@
+{
+  "name": "onebuck",
+  "version": "0.0.8",
+  "description": "utility for connecting to tencent products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tencent",
+    "wechat",
+    "qq"
+  ],
+  "author": "Guuours",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "request": "^2.88.0"
+  }
+}
