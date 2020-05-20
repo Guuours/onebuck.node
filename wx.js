@@ -23,7 +23,9 @@ function wx(id, secret) {
                                     message: body.errmsg
                                 });
                             }
-                            resolve(body);
+                            else {
+                                resolve(body);
+                            }
                         }
                     });
             });
@@ -45,7 +47,9 @@ function wx(id, secret) {
                                     message: body.errmsg
                                 });
                             }
-                            resolve(body);
+                            else {
+                                resolve(body);
+                            }
                         }
                     });
             });
@@ -67,7 +71,9 @@ function wx(id, secret) {
                                     message: body.errmsg
                                 });
                             }
-                            resolve(body);
+                            else {
+                                resolve(body);
+                            }
                         }
                     });
             });

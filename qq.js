@@ -17,13 +17,15 @@ function qq(id, secret) {
                             reject(err);
                         }
                         else {
-                            if (body.errcode && body.errcode !== 0) {
+                            if (body.ret && body.ret !== 0) {
                                 reject({
                                     code: body.ret,
                                     message: body.msg
                                 });
                             }
-                            resolve(body);
+                            else {
+                                resolve(body);
+                            }
                         }
                     });
             });

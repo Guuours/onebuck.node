@@ -1,6 +1,6 @@
 {
   "name": "onebuck",
-  "version": "0.0.8",
+  "version": "1.0.2",
   "description": "utility for connecting to tencent products",
   "main": "index.js",
   "scripts": {
